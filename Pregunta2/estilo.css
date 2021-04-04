@@ -1,0 +1,25 @@
+.etiqueta input{
+    border: 2px solid silver;
+    width: 310px;
+    height: 20px;
+}
+#listado{
+    border: 2px solid silver;
+    width: 310px;
+    height: 20px;
+}
+span{ 
+   font-weight: bold;
+}
+body{
+    background-color:whitesmoke;
+}
+#boton{
+    background-color:steelblue;
+    color: white;
+    border: 1px solid black;
+    height: 25px;
+}
+#cuadro{
+    border: 2px solid silver;
+}

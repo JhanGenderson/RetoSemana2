@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Sign Up</h2>
+    </header>
+    <main>
+        <section>
+            <form>
+                <p><label class="etiqueta"><span>First Name</span><br><input type="text" name="nombre" minlength="6"></label></p>
+                <p><label class="etiqueta"><span>Age</span><br><input type="number" name="edad" max="120"></label></p>
+                <p><label class="etiqueta"><span>Income</span><br><input type="text" name="ingreso" minlength="6"></label></p>
+                <p><label class="etiqueta"><span>More Info</span> <br><textarea id="cuadro" name="more info" cols="40" rows="3" minlength="6"></textarea></label></p>
+                <p><label><span>Gender</span> <br><input type="radio" name="male" value="male">Male</label>
+                    <label><input type="radio" name="female" value="female">Female</label> 
+                    <label><input type="radio" name="trans" value="trans">Trans</label>
+                </p>
+                <p><label for="listado"><span>Plan</span><br></label>
+                <select name="plan" id="listado">
+                    <option selected disabled value="1">Select plan</option>
+                    <option value="2">Plan Economico</option>
+                    <option value="3">Plan Estandar</option>
+                    <option value="4">Plan Premium</option>
+                </select>
+                </p>
+                <p><label><input type="checkbox" name="suscribe">Suscribe to Newsletter</label></p>
+                  <p><input id="boton" type="submit" value="Update"></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
